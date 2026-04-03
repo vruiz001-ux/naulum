@@ -18,17 +18,15 @@ export function Sidebar() {
 
   return (
     <aside className="fixed inset-y-0 left-0 z-50 w-64 bg-slate-950 text-white flex flex-col">
-      <div className="flex items-center justify-center px-4 py-4 border-b border-white/10">
-        <div className="bg-white rounded-lg px-3 py-2">
-          <Image
-            src="/logo-naulum.jpg"
-            alt="Naulum Solutions"
-            width={180}
-            height={50}
-            className="h-8 w-auto object-contain"
-            priority
-          />
-        </div>
+      <div className="flex items-center justify-center px-4 py-5 border-b border-white/10 bg-black">
+        <Image
+          src="/logo-naulum.jpg"
+          alt="Naulum Solutions"
+          width={220}
+          height={60}
+          className="h-12 w-auto object-contain mix-blend-lighten"
+          priority
+        />
       </div>
 
       <nav className="flex-1 px-3 py-4 space-y-1">
