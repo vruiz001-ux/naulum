@@ -24,7 +24,8 @@ export function Sidebar() {
           alt="Naulum Solutions"
           width={220}
           height={60}
-          className="h-12 w-auto object-contain mix-blend-lighten"
+          className="h-12 w-auto object-contain"
+          style={{ mixBlendMode: "screen" }}
           priority
         />
       </div>
