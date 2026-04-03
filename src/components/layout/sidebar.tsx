@@ -18,14 +18,13 @@ export function Sidebar() {
 
   return (
     <aside className="fixed inset-y-0 left-0 z-50 w-64 bg-slate-950 text-white flex flex-col">
-      <div className="flex items-center justify-center px-4 py-5 border-b border-white/10 bg-black">
+      <div className="flex items-center justify-center px-4 py-6 border-b border-white/10 bg-black">
         <Image
-          src="/logo-naulum.jpg"
+          src="/logo-naulum.png"
           alt="Naulum Solutions"
-          width={220}
-          height={60}
-          className="h-12 w-auto object-contain"
-          style={{ mixBlendMode: "screen" }}
+          width={240}
+          height={52}
+          className="h-14 w-auto object-contain"
           priority
         />
       </div>
