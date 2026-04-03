@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Naulum - Belly Cargo Intelligence",
+  title: "Naulum Solutions - Belly Cargo Intelligence",
   description: "Predictive belly cargo capacity optimization for airlines",
 };
 
